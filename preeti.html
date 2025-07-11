@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabir Singh</title>
+</head>
+<style>
+    .box {
+        width:100px;
+        height:100px;
+        font-size: 20px;
+        
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            Please touch me !!
+        </div>
+        <img src="https://peepingmoon-cdn.sgp1.digitaloceanspaces.com/engpeepingmoon/030120102055kiara-advani-kabir-singh.jpg"
+            alt="Kabir Singh Poster" style="width: 40%; height: auto;">
+    </div>
+
+
+    <script>
+        // JavaScript code to handle the click event
+        document.querySelector('.container').addEventListener('click', function () {
+            document.querySelector('.container').innerHTML = `
+                <img src="https://pbs.twimg.com/media/EbCUiswUwAAOVe2.jpg" alt="Kabir Singh Poster" style="width: 40%; height: auto;">
+                <audio controls autoplay loop>
+  <source src="Kisne Touch Kiya Usko Madarchod Meme Template.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+                
+            `;
+        });
+    </script>
+
+</body>
+
+</html>
